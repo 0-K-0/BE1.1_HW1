@@ -10,4 +10,4 @@ const TodosSchema = mongooes.Schema({
   updatedAt: { type: Date },
 });
 const Todos = mongooes.model("Todos", TodosSchema);
-module.export = Todos;
+module.exports = Todos;
