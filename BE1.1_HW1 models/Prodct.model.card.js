@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = required ("mongoose");
 const ProductCardSchema = new mongoose.Schema({
   title: { type: String, required: true, trim: true },
   rating: { type: Number, required: true, default: 0 },
