@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const ProductCard = new mongoose.Schema({
+const ProductCard = new mongoose.model({
   ProdctName: String,
   Description: String,
   Info: String,
