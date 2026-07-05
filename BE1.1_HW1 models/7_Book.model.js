@@ -28,7 +28,7 @@ const BookSchema = new mongooes.Schema(
     summary: { type: String },
     coverURL: { type: String },
   },
-  timestamps: true 
+ [ timestamps: true} 
 );
 const Book = mongooes.model("Book", BookSchema);
 module.exports = Book;
