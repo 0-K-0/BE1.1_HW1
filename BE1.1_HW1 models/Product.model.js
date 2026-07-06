@@ -7,5 +7,5 @@ const ProductCard = new mongoose.Schema({
   Size: Number,
   Price: Number,
 });
-const Product = mongoose.Schema("Product", ProductCard);
+const Product = mongoose.model("Product", ProductCard);
 module.exports = Product;
