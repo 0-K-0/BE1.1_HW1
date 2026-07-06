@@ -3,7 +3,7 @@ const employeePassCardSchema = new mongoose.Schema({
   EmployeeName: String,
   Department: String,
   EmployeeId: Number,
-  EmployeeDateOfBirth: Number,
+  EmployeeDateOfBirth: Date,
   EmployeeEmail: String,
   EmployeeTelePhoneNumber: Number,
   EmployeeAddress: String,
